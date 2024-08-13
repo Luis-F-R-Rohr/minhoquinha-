@@ -1,8 +1,15 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
-  
+/* Define o estilo para o corpo da página */
+body {
+    display: flex; /* Usa flexbox para centralizar o canvas */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    height: 100vh; /* Ocupa a altura total da janela */
+    margin: 0; /* Remove a margem padrão do navegador */
+    background: #000; /* Define o fundo como preto */
+}
+
+/* Estiliza o canvas */
+canvas {
+    border: 1px solid #fff; /* Adiciona uma borda branca ao redor do canvas */
+    background: #000; /* Define o fundo do canvas como preto */
+}
