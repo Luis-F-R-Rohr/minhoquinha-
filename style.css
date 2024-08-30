@@ -6,10 +6,28 @@ body {
     height: 100vh; /* Ocupa a altura total da janela */
     margin: 0; /* Remove a margem padrão do navegador */
     background: #000; /* Define o fundo como preto */
+    color: white; /* Adiciona uma cor branca aos texto dentro do body */
 }
 
 /* Estiliza o canvas */
 canvas {
     border: 1px solid #fff; /* Adiciona uma borda branca ao redor do canvas */
     background: #000; /* Define o fundo do canvas como preto */
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+button{
+    padding: 10px; /* Adiciona uma espaçamento interno entre o texto e a borda do botão */
+    border-radius: 10px; /* Adiciona uma curvatura nas pontas das bordas do botão */
+    border: 1px solid; /* Adiciona uma pequena borda ao botão */
+    margin-left: 20px; /* Cria um\ mergem a esquerda do botão para criar um espaço entre ele e a tela do jogo */
+    cursor: pointer; /* Muda o cursor do mouse para "Apontando" */
+}
+
+button:hover{
+    background-color: #a6a6a6; /* Muda cor de fundo do botão para cinza claro quando o mouse passar por cima dele */
 }
